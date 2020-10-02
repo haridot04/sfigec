@@ -1,0 +1,140 @@
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light\ Italic.otf);
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold\ Italic.otf);
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Thin.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold.otf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: white;
+    color: white;
+    border: none;
+}
+
+header{
+    text-align: center;
+    margin: 3% 0% 3% 0%;
+
+}
+.admission{
+    color: white;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 230px;        
+    text-align: center;
+    top: 118px;
+}
+
+.background{
+    width: 100%;
+}
+
+h1{
+    color: red;
+    font-family: Axiforma;
+}
+h3{
+    color: red;
+    font-family: Axiforma;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p{
+    font-family: Axiforma;
+    font-weight: 100;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+section{
+
+}
+
+.gec-thrissur{
+    margin: 6% 5% 1% 5%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 1% 5% 1% 5%;
+}
+
+
+
+.inactive{
+    display: none;
+}
+
+.minus{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+hr{
+    width: 100%;
+    color: grey;
+
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#width{
+    width: 50%;
+    margin: auto;
+}
+
+.social-media{
+    text-align: center;
+    padding-top: 40px;
+}
