@@ -22,6 +22,15 @@ body{
     background-color: black;
 }
 
+h2,h3,h4,h5,h6{
+    font-family: 'Baskervville', serif;
+    color: rgb(216, 62, 62);
+}
+p{
+    color: white;
+}
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -85,28 +94,24 @@ nav{
 }
 
 #sfi-title{
-    color: red;
+    color: rgb(216, 62, 62);
     font-size:2.8vw ;
     font-family: 'Baskervville', serif;
 }
-h3{
+/* h3{
     font-family: 'Baskervville', serif;
-    /* font-size: 1.35vw; */
+    font-size: 1.35vw;
     padding-bottom: 20px;
     color: white;
-}
+} */
 
-h5{
+#gec-unit{
     font-family: 'Baskervville', serif;
     font-size: 1.15vw;
     padding-bottom: 20px;
     color: white;
 }
 
-p{
-    font-family: 'Baskervville', serif; 
-    color: white;
-}
 
 .main-title hr{
     background-color: white;
@@ -139,6 +144,83 @@ p{
 
 section{
     margin: 5%;
+}
+
+section{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.unit-initiative{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+pre{
+    text-transform: uppercase;
+    font-family: 'Baskervville', serif;
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin: 5%; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-line{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    background-color: rgb(216, 62, 62);
+    width: 60%;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer-logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.vr-line{
+    margin-left: 20px;
+    border-left: 1px solid rgb(216, 62, 62);
+    height: 60px;
+}
+.footer-link{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 45%;
+    margin: auto;
+    padding-left: 2%;
+    position: relative;
+    top: 50%;
+    margin: 0;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: rgb(216, 62, 62);
+    font-family: 'Baskervville', serif;
+    font-weight: 100;   
+
 }
 
 
@@ -228,6 +310,23 @@ section{
 
     .active{
         display: none;
+    }
+
+    .footer-logo img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-link{
+        width: auto;
+    }
+
+    .footer-link a{
+        font-size: 0.6rem;
+    }
+
+    pre{
+        font-size: 0.7rem;
     }
 
 }    
